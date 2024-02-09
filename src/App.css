@@ -1,0 +1,12 @@
+.container{
+  min-height: 100vh;
+  margin-bottom: 5em;
+  margin: auto;
+  width: 90%;
+}
+
+.NFERR{
+  background-color: aliceblue;
+  height: 100vh;
+}
+

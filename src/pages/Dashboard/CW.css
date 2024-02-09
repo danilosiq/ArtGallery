@@ -1,0 +1,52 @@
+.ContainerWin{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ContainerWin .backG{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+
+}
+.ContainerWin .boxW{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.DEL{
+    background-color: rgb(243, 94, 94);
+    border: none;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 5px;
+    transition: 150ms ease;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+
+.CAN{
+    background-color: rgb(94, 243, 151);
+    border: none;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 5px;
+    transition: 150ms ease;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.CAN:hover, .DEL:hover{
+    background-color: rgb(0, 1, 34);
+    color: rgb(71, 203, 114)
+}
